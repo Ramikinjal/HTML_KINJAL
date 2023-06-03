@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag 2 </title>
+</head>
+
+<body>
+    <form method="post">
+        <table align="center" style="background-color:rgba(0, 0, 255, 0.369)
+        ">
+            <tr>
+                <td>
+                    <label for="Username">Username</label>
+                </td>
+                <td>
+                    <input type="text" value="" placeholder="Enter username" name="username" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Lastname">Lastname</label>
+                </td>
+                <td><input type="text" value="" placeholder="Enter Lastname" name="Lastname" id="Lastname"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">email</label>
+                </td>
+                <td><input type="text" value="" placeholder="Enter email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobile number">mobile number</label>
+                </td>
+                <td>
+                    <input type="tel" value="" placeholder="Enter mobile number" name="mobail number" id="mobilenumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">password</label>
+                </td>
+                <td>
+                    <input type="password" value="" placeholder="Enter password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" placeholder="" id="Male"><label for="Male">Male</label>
+                    <input type="radio" name="gender" placeholder="" id="female"><label for="female">female</label>
+                    <input type="radio" name="gender" placeholder="" id="others"><label for="others">others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">hobbies</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="cooking"><label for="cooking">cooking</label>
+                    <input type="checkbox" name="hobbies" id="singing"><label for="singing">singing</label><br>
+                    <input type="checkbox" name="hobbies" id="dancing"><label for="dancing">dancing</label>
+                    <input type="checkbox" name="hobbies" id="playing"><label for="playing">playing</label><br>
+                    <input align="center" type="checkbox" name="hobbies" id="watching"><label
+                        for="watching">watching</label>
+                    <input type="checkbox" name="hobbies" id=other hobbies><label for="other hobbies">other
+                        hobbies</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="Age">Age</label></td>
+                <td><input type="number" name="age" placeholder="" id="Age"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="range">range</label>
+                </td>
+                <td>
+                    <input type="range" name="range" placeholder="" id="Range">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="meter">meter</label>
+                </td>
+                <td>
+                    <meter value="20" min="10" max="100"></meter>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">color</label>
+                </td>
+                <td>
+                    <input type="color" name="color" placeholder="" id="color">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="profile pic"></label>profile image</td>
+                <td>
+                    <input type="file" accept="image" name="profile pic" placeholder="" id="profile pic">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">city</label>
+                </td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="select city">select city</option>
+                        <option value="rajkot">rajkot</option>
+                        <option value="surat">surat</option>
+                        <option value="surendranagar">surendranagar</option>
+                        <option value="ahemdabad">ahemdabad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="education">education</label>
+                </td>
+                <td>
+                    <select name="education" multiple id="education">
+                        <option value="10th">10th</option>
+                        <option value="12th">12th</option>
+                        <option value="B.sc">B.sc</option>
+                        <option value="B.com">B.com</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BBA">BBA</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Birthdate</label>
+                </td>
+                <td>
+                    <input type="date" name="date" placeholder="" id=date>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Time">Time</label>
+                </td>
+                <td>
+                    <input type="datetime-local" name="Time" placeholder="" id="Time">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="month">month</label>
+                </td>
+                <td>
+                    <input type="month" name="month" placeholder="" id="month">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Week">week</label>
+                </td>
+                <td>
+                    <input type="week" name="week" placeholder="" id="week">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="readonly">readonly</label>
+                </td>
+                <td>
+                    <input type="text" name="readonly" readonly value="kashyap@rami" placeholder="" id="readonly">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="disabled">disabled</label>
+                </td>
+                <td>
+                    <input type="text" name="disabled" disabled placeholder="" id="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Url">Url</label>
+                </td>
+                <td>
+                    <input type="url" name="url" placeholder="url" id="url">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Search">search</label>
+                </td>
+                <td>
+                    <input type="search" name="search" placeholder="" id="search">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" placeholder="" id="submit">
+                </td>
+                <td><input type="reset" name="reset" placeholder="" id="recet"></td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
